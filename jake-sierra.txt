@@ -1,4 +1,10 @@
- 1. What is Semantic HTML? 
+https://codepen.io/jakeas/pen/dyXWxKK?editors=1100
+
+Questions to Submit in today's file first-lastname.txt 
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+ 
+    1. What is Semantic HTML?
+            It is HTML tags that have meaning  
     2. What is HTML used for? 
     3. What is an attribute and where do we put it? 
     4. What is the h1 tag used for? How many times should I use it on a page?
