@@ -73,13 +73,20 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
             Using version control makes organization of files and collaboration with others much easier.        
     35. How often should I commit to github?
             Every 20 minutes
-    36. What is the command we would use to push our repo up to github? 
-    37. Walk me through Lambda's git flow. 
+    36. What is the command we would use to push our repo up to github?
+            git push -u origin firstName-lastName 
+    37. Walk me through Lambda's git flow.
+            Start by forking the intended repo on GitHub, clone your repo on GitHub, move to your terminal and cd to the location you want the repo to end up, use git clone URL to clone the repo to that directory, cd into that new file, create a branch with the git checkout -b firstName-lastName command, code . into VS Code and start working on your project, every 20 minutes add (git add .), commit (git commit -m "comment") and push (git push -u origin branch-name) changes back to your GitHub repo. When you are ready make a pull request on GitHub            
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+            And inline element keeps the same line and doesn't automatically make a new line like a block element.
+    2. What happens when an element is positioned absolutely?
+            The element is removed from the document flow and no space is allotted on the page for that element.         
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+            Using Inline-block
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+            Display block: <p>, <div>,<li> Inline: <span>, <script> Inline-Block: <nav>
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+             The box model consists of the content, padding, border and margin which determines how space is used.  Border box is the "fix" for the width.  
