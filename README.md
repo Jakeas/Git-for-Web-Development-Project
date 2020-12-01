@@ -33,15 +33,15 @@ Stretch Review questions:
 Stretch Git Tasks
 - [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independently research the following topics to learn more about Git.
   - [ ] Research and understand what a `merge conflict` is and how to resolve it.
-        merge conflict: if two people changed the same lines in the same file. Git simply cannot know what is correct. Git will then mark the file as having a conflict. you resolve the conflict by choosing which one to keep.
+          merge conflict: if two people changed the same lines in the same file. Git simply cannot know what is correct. Git will then mark the file as having a conflict. you resolve the conflict by choosing which one to keep.
   - [ ] Research the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the main branch.
-        pull: to download content from a remote repo and update the local repo to match that content
-        rebase:
-        merge:
+          pull: to download content from a remote repo and update the local repo to match that content
+          rebase: integrates changes from one branch onto another
+          merge:puts a forked history back together again into a single branch
   - [ ] Research the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and amends previous commits you have made.
-        reset:
-        revert:
-        clean:
+          reset: Undo command. Used for undoing changes. It has three primary forms of invocation.The command line arguments --soft, --mixed, and --hard Undo command. Direct how to modify the Staging Index, and Working Directory trees
+          revert: Undo Command. Reverts to apply the inverse of a commit from your project history.
+          clean: Undo command. The git clean command operates on untracked files that have been created within your repo's working directory but have not yet been added to the tracking index (git add . ) 
 - [ ] Research and set up a Graphical User Interface (GUI) Git console. 
 
 - [ ] Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push. 
